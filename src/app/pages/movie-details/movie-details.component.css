@@ -1,0 +1,44 @@
+img{
+    width: 100%;
+    height: auto;
+}
+h1
+{
+    color: #ffffff;
+    font-weight: bold;
+}
+p
+{
+    color: #ffffff;
+}
+a
+{
+    background-color: #E50914;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #E50914;
+    color: #ffffff;
+    border: 2px solid #ffffff; 
+}
+.fa-thumbs-up,
+.fa-thumbs-down {
+  font-size: 2em;
+  color: #e70813;
+  cursor: pointer;
+}
+
+.fa-thumbs-up:active,
+.fa-thumbs-down:active {
+  transform: scale(1.1);
+}
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  

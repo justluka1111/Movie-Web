@@ -1,0 +1,8 @@
+<div class="mat-h2">Please rate this Website</div>
+
+<button mat-icon-button color="accent"*ngFor="let r of ratingArr; index as i"
+    (click)="onClick(i)">
+    <mat-icon>
+        {{returnStar(i) }}
+    </mat-icon>
+</button>

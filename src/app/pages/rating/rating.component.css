@@ -1,0 +1,19 @@
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  color: gray;
+  font-size: 2em;
+  transition: color 0.2s ease-in-out;
+}
+
+.star.checked {
+  color: orange;
+}
+
+.star:hover, .star.checked:hover {
+  cursor: pointer;
+}
+
